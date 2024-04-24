@@ -7,7 +7,7 @@
 2.1. 소스코드의 버전을 관리해주는 시스템(Git, SVN 등)
 3. GitHub: Git으로 관리된 프로젝트 올리는 호스팅사이트(GitLab, BitBucket 등)
 3.1. 시공간 제약 X, 자유로운 협업 가능
-</br>
+
 ## 로컬 저장소
 1. commit: Git에서 생성되는 모든 버전 
 2. 버전관리 
@@ -15,7 +15,7 @@
 `git commit -m "message"`
 `git log`
 `git checkout "ID 7자리"`
-</br>
+
 ## 원격 저장소
 1. GitHub상 Repository 생성
 2. Remote Repository에 연결된 Local Repository 생성
