@@ -44,4 +44,5 @@
 
 ## pull request
 1. 예의바른 merge
+2. 버전 정보 patch <-> 버전 내용 pull
 
