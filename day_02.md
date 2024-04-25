@@ -16,3 +16,32 @@
 5. `git push` 원격 저장소에 코드와 버전 정보 업로드
 6. `git clone` 원격 저장소에 있는 내용 다운
 7. `git pull` 원격 저장소에 업데이트된 내용 다운
+
+## commit 이해하기
+1. commit은 기존파일+변경파일 포함 프로젝트 전체 저장
+2. SVN commit은 차이점(Delta)만 저장하지만 Git은 전체 저장(SnapShot)
+3. 100번 변경되면 100번 비교하는 SVN보다 Git의 연산이 빠르고 용량이 적음
+4. 복잡한 명령어 빠른 처리 가능
+
+## 파일 상태 종류
+1. untracked(추적 없음) </br>
+2. tracked</br>
+2.1. unmodified(수정 없음)</br>
+2.2. modified(수정함)</br>
+2.3. staged(스테이지됨)</br>
+
+## branch
+1. 1인 1 branch 1 commit
+2. branch를 생성 규칙 지정(branch 명명규칙, commit 방식)
+
+## checkout
+1. HEAD 포인터를 다른 branch나 이전 commit으로 옮기는 명령어
+
+## merge
+1. merge commit 병합커밋
+2. Fast-forward 빨리감기
+3. conflict 충돌
+
+## pull request
+1. 예의바른 merge
+2. 
